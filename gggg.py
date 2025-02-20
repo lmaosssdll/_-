@@ -147,7 +147,7 @@ class AmeActions(loader.Module):
 
 @loader.command()
     async def sperma(self, message: Message):
-        """- секс [reply] Кастомное действие"""
+        """- sekc [reply] Кастомное действие"""
         me = await self._client.get_me()
         reply = await message.get_reply_message()
         susr = me.first_name
