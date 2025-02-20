@@ -1,7 +1,6 @@
-#meta developer: @thisLyomi & @AmekaMods
-
-from hikkatl.types import Message
+#meta developer: @thisLyomi & @AmekaMo
 from .. import utils, loader
+from hikkatl.types import Message
 
 
 @loader.tds
