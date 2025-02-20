@@ -109,7 +109,7 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,"❌ | <b>Суицид? </b>")
             else:
-                await utils.answer(message, f"<emoji document_id=5449603119623193071>⚰️</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> выебал <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"<emoji document_id=5449603119623193071>💕</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> выебал <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
     async def bite(self, message: Message):
