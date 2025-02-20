@@ -109,7 +109,7 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,"❌ | <b>Суицид? </b>")
             else:
-                await utils.answer(message, f"<emoji document_id=5449603119623193071>⚰️</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> убил(а) <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"<emoji document_id=5449603119623193071>⚰️</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> выебал <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
     async def bite(self, message: Message):
@@ -144,20 +144,3 @@ class AmeActions(loader.Module):
                 await utils.answer(message,f"❌ | <b>Увы, но на себе эту команду применить нельзя.</b>")
             else:
                 await utils.answer(message, f"👅 | <b> <a href='tg://user?id={sid}'>{susr}</a> запустил волшебную сперму в <a href='tg://user?id={uid}'>{usr}</a></b>")
-
-    @loader.command()
-    async def sekc(self, message: Message):
-        """- sekc [reply] Кастомное действие"""
-        me = await self._client.get_me()
-        reply = await message.get_reply_message()
-        susr = me.first_name
-        sid = me.id
-        if reply == None:
-            await utils.answer(message,"❌ | <b>Команда работает в ответ на сообщение пользователя.</b>")
-        elif reply != None:
-            usr = reply.sender.first_name
-            uid = reply.sender.id
-            if sid == uid:
-                await utils.answer(message,f"❌ | <b>Увы, но на себе эту команду применить нельзя.</b>")
-            else:
-                await utils.answer(message, f"👅 | <b> <a href='tg://user?id={sid}'>{susr}</a> въебал <a href='tg://user?id={uid}'>{usr}</a></b>")
