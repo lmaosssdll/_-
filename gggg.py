@@ -1,4 +1,4 @@
-meta developer: @thisLyomi & @AmekaMods
+#meta developer: @thisLyomi & @AmekaMods
 
 from hikkatl.types import Message
 from .. import utils, loader
