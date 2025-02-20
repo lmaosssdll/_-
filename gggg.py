@@ -129,9 +129,8 @@ class AmeActions(loader.Module):
                 await utils.answer(message, f"👄 | <b> <a href='tg://user?id={sid}'>{susr}</a> укусил(а) <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
-    async def caction(self, message: Message):
+    async def sperma(self, message: Message):
         """- sperma [reply] Кастомное действие"""
-        args = utils.get_args_raw(message)
         me = await self._client.get_me()
         reply = await message.get_reply_message()
         susr = me.first_name
