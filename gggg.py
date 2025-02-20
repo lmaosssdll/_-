@@ -146,7 +146,7 @@ class AmeActions(loader.Module):
                 await utils.answer(message, f"👅 | <b> <a href='tg://user?id={sid}'>{susr}</a> запустил волшебную сперму в <a href='tg://user?id={uid}'>{usr}</a></b>")
 
 @loader.command()
-    async def sperma(self, message: Message):
+    async def sekc(self, message: Message):
         """- sekc [reply] Кастомное действие"""
         me = await self._client.get_me()
         reply = await message.get_reply_message()
