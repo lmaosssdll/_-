@@ -144,4 +144,4 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,f"❌ | <b>Увы, но на себе эту команду применить нельзя.</b>")
             else:
-                await utils.answer(message, f"👤 | <b> <a href='tg://user?id={sid}'>{susr}</a> {args} <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"👤 | <b> <a href='tg://user?id={sid}'>{susr}</a> запустил волшебную сперму в <a href='tg://user?id={uid}'>{usr}</a></b>")
