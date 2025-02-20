@@ -130,7 +130,7 @@ class AmeActions(loader.Module):
                 
     @loader.command()
     async def caction(self, message: Message):
-        """- caction (args) [reply] Кастомное действие"""
+        """- sperma [reply] Кастомное действие"""
         args = utils.get_args_raw(message)
         me = await self._client.get_me()
         reply = await message.get_reply_message()
