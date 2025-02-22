@@ -126,7 +126,7 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,"❌ | <b>Это какой-то фетиш? </b>")
             else:
-                await utils.answer(message, f"👄 | <b> <a href='tg://user?id={sid}'>{susr}</a> укусил(а) <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"👨‍👩‍👧 | <b> <a href='tg://user?id={sid}'>{susr}</a> у появился ребёнок с <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
     async def sperma(self, message: Message):
