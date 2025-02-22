@@ -41,7 +41,7 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,"❌ | <b>Кто тебе запрещает обняться с самим собой в реальной жизни? </b>")
             else:
-                await utils.answer(message, f"<emoji document_id=5222325171284622461>💘</emoji> |  <b><a href='tg://user?id={sid}'>{susr}</a> обнял(а) <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"<emoji document_id=5222325171284622461>🥰</emoji> |  <b><a href='tg://user?id={sid}'>{susr}</a> подрачил <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
     async def push(self, message: Message):
@@ -58,7 +58,7 @@ class AmeActions(loader.Module):
             if sid == uid:
                 await utils.answer(message,"❌ | <b>Покажи всем как ты толкаешь самого себя.</b>")
             else:
-                await utils.answer(message, f"<emoji document_id=5449552292980214333>🙌</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> толкнул(а) <a href='tg://user?id={uid}'>{usr}</a></b>")
+                await utils.answer(message, f"<emoji document_id=5449552292980214333>😘</emoji> | <b> <a href='tg://user?id={sid}'>{susr}</a> окончал всë с <a href='tg://user?id={uid}'>{usr}</a></b>")
                 
     @loader.command()
     async def hit(self, message: Message):
